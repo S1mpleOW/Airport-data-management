@@ -42,8 +42,9 @@ const Contact = React.lazy(
 )
 
 const DashboardLayout = React.lazy(
-  async (): Promise<typeof import('@modules/dashboard/DashboardLayout')> =>
-    await import('@modules/dashboard/DashboardLayout')
+  async (): Promise<{
+    default: typeof import('@modules/dashboard').DashboardLayout
+  }> => await import('@modules/dashboard').then((module) => ({ default: module.DashboardLayout }))
 )
 
 const TicketPage = React.lazy(
