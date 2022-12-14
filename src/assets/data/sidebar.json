@@ -1,0 +1,32 @@
+[
+  {
+    "id": 2,
+    "title": "Tickets",
+    "url": "/ticket",
+    "icon": "fa fa-ticket"
+  },
+  {
+    "id": 3,
+    "title": "Customers",
+    "url": "/customer",
+    "icon": "fa fa-user"
+  },
+  {
+    "id": 4,
+    "title": "Category",
+    "url": "/category",
+    "icon": "fa fa-info"
+  },
+  {
+    "id": 5,
+    "title": "Airport",
+    "url": "/airport",
+    "icon": "fa fa-road"
+  },
+  {
+    "id": 6,
+    "title": "Flight",
+    "url": "/flight",
+    "icon": "fa fa-plane"
+  }
+]
