@@ -9,7 +9,7 @@ const Home: React.FunctionComponent<{}> = (props) => {
     <div
       className="pt-20 flex items-center justify-start flex-col"
       style={{
-        background: "url('/public/homepage-bg.png') no-repeat center center fixed",
+        background: "url('/homepage-bg.png') no-repeat center center fixed",
         backgroundSize: 'contain',
         height: 'calc(100vh - 94px)',
       }}
